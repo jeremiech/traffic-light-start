@@ -1,7 +1,5 @@
-function reverseWords(str) {
-    return str.split("").reverse().join("").split(" ").reverse().join(" ")
-    
-}
-let x=reverseWords("double  spaces")
+function haveHero(bullet,dragon){
+   return dragon*2<=bullet ? true:false
 
-console.log(x)
+}
+console.log(haveHero(7,3))
